@@ -14,6 +14,14 @@
       <property name="name" value="abc"/>
       <property name="address" ref="adr1"/>
       
+      <property name="addresses">
+      <map>
+      <entry key="temprory" value-ref="adr1"/>
+      <entry key="parmanent" value-ref="adr2"/>
+      </map>
+      </property>
+      
+      
       <property name="emails">
       <set>
       <value>baljeet@gmail.com</value>
@@ -75,5 +83,11 @@
       
       </bean>
       
+      
+      <bean id="adr2" class="com.bs.Address">
+      <property name="hno" value="103"/>
+      <property name="street" value="YN-road"/>
+      <property name="city" value="inodre"/>
+      </bean>
      
 </beans>

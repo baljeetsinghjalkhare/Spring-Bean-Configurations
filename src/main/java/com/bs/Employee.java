@@ -26,7 +26,7 @@ private Map<String,Integer> kids;
 private Properties education;
 
 private List<Project> projects;
-
+private Map<String,Address> addresses;
 
 
 }
